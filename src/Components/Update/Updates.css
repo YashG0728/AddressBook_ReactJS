@@ -1,0 +1,136 @@
+
+
+/* this is for logo employee payroll */
+.header {
+    background-color: white;
+    margin-top: 1%;
+  }
+  
+    .logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-left: 10%;
+      margin-bottom: 1%;
+      
+    }
+  
+  .emp-text {
+    font: normal normal bold 20px/10px Montserrat;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0px;
+    color: #82a70c;
+    text-transform: capitalize;
+    margin-left: 5px;
+  }
+  
+  .emp-payroll {
+    margin-right: 90%;
+  color: #42515f;
+  }
+  
+  .payroll-main {
+    height: 100%;
+  }
+  
+  .content {
+    min-height: calc(100% - 80px);
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .form{
+    width: 50%;
+      padding: 44px 60px;
+      background: #fff 0% 0% no-repeat padding-box;
+      box-shadow: 0px 3px 6px grey;
+      border: 1px solid #f5f5f5;
+      border-radius: 8px;
+      opacity: 1;
+      margin-top: 2%;
+  }
+  
+  .form-head {
+    font: normal normal bold 24px/37px Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-bottom: 25px;
+    text-align: left
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: left;
+    text-align: left;
+    size: 10ch;
+    margin-top: 5%;
+  }
+  
+  .textbox{
+  width: 80%;
+  padding: 12px;
+  margin-left: 8%;
+  }
+  
+  .first{
+    padding: 12px;
+    margin-left: 4%;
+  }
+  
+  .label{
+  margin-right: 4%;
+  }
+  
+  .second{
+  margin-left: 1%;
+  }
+  
+  .third{
+    width: 25%;
+  padding: 12px;
+  margin-left: 4%;
+  }
+  
+  .day{
+    margin-right: 2%;
+    margin-left: 1%;
+    padding: 8px;
+  }
+  
+  .textareas{
+    margin-left: 3.5%;
+    padding: 35px;
+    width: 70%;
+  }
+  
+  .submit-reset{
+    margin-left: 11.5%;
+  }
+  
+  .resetButton{
+    font-size: 22px;
+    font-family: Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    opacity: 1;
+    background: transparent;
+    border: none;
+    font-weight: 400;
+    min-width: 140px;
+    padding: 7px 7px;
+    border: 1px solid #0e0202;
+    cursor: pointer;
+    margin-right: 10%;
+    margin-top: 4%;
+  }
+  
+  .resetButton:hover{
+    background-color: #82a70c;
+  }
